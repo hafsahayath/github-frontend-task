@@ -3,7 +3,6 @@ import '../styles/ListingRepos.css'
 
 const ListingRepos = ({repos}) => {
     const [searchText, setSearchText] = useState('')
-    // const [filteredRepos, setFilteredrepos] = useState([])
 
     const handleChange = (e) => {
         setSearchText(e.target.value)
