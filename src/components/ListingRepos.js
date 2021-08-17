@@ -15,7 +15,7 @@ const ListingRepos = ({repos}) => {
         let firstPart = repoName.slice(0, startIndex);
         let highlightedStr = repoName.slice(startIndex, endIndex);
         let lastPart = repoName.slice(endIndex)
-        return <li style={{borderTop: '1px solid #eee'}} key={id}>{firstPart}<span style={{backgroundColor:'yellow'}}>{highlightedStr}</span>{lastPart}</li>
+        return <li key={id}>{firstPart}<span style={{backgroundColor:'yellow'}}>{highlightedStr}</span>{lastPart}</li>
       }
 
     return (
