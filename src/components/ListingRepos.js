@@ -21,7 +21,7 @@ const ListingRepos = ({repos}) => {
         <div className="repo-list">
             <input className="search-repo-list" type="text" value={searchText} onChange={handleChange} placeholder="search by name"/>
             <ul>
-                {repos.filter(ele=>ele.name.toLowerCase().includes(searchText.toLowerCase())).map(element=>highlight(element.name, searchText.toLowerCase(), element.id))}
+                {repos.filter(ele=>ele.name.toLowerCase().includes(searchText.toLowerCase())||searchText==="").map(element=>highlight(element.name, searchText.toLowerCase(), element.id))}
             </ul>
         </div>
     )
