@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+    border-top: 1px solid #333;
+}
+
+.repo-list {
+    width: 500px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+.repo-list input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-repo-list {
+    align-self: flex-end;
+    margin-bottom: 10px;
+}

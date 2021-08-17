@@ -1,0 +1,33 @@
+.search-user-container {
+    display: flex;
+    padding: 10px;
+}
+
+.form-style {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-style input {
+    width: 350px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn.submit {
+    background: #5cb85c;
+}
+
+.btn.reset {
+    background: #eee;
+    color: crimson;
+}
